@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    animation: transitionIn 2s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ############################## UTILITY CLASSESS */
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+    transition: 0.4s all ease-in-out;
+}
+
+.homescreen{
+	width: 100vw;
+	height: 100vh;
+	background-color: #3d3d3d;
+	color: white;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.homescreen h1{
+	width: 100vw;
+	font-size: 80px;
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Pacifico', sans-serif;
+}
+
+.login_signup_btn{
+	outline: none;
+	font-size: 20px;
+	border: 4px solid #ff4000;
+	width: 250px;
+	height: 60px;
+	background-color: white;
+	margin: 20px 0px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.login_signup_btn:hover {
+    border: 4px solid #ff00ea;
+}
+
+.form_name{
+	font-size: 35px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: 600;
+	color: #ff4000;
+}
+
+.signup{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 700px;
+	transform: translate(-50%, -50%);
+	padding: 25px;
+	border-radius: 10px;
+	background-color: #fcfced;
+	box-shadow: rgba(255,255,255, 0.3) 0px 22px 70px 4px;
+}
+
+.input_field{
+	width: 450px;
+	height: 30px;
+	font-size: 18px;
+	border: 1px solid #ff4000;
+	padding: 5px;
+	transition: 0.3s all ease-in-out;
+	margin-top: 5px;
+}
+
+.input_field:hover {
+    border: 1px solid #ff00ea;
+}
+
+.input_field:focus {
+	outline: none;
+    border: 1px solid green;
+}
+
+.label_of_field{
+	font-size: 15px;
+	color: black;
+	font-weight: 600;
+}
+
+input[type="radio"] {
+  	width: 18px;
+  	height: 18px;
+  	border-radius: 50%;
+  	display: inline-block;
+  	position: absolute;
+  	border: 2px solid #ff4000;
+  	transition: all 0.2s ease-in-out;
+  	margin-top: 1px;
+}
+
+.submit_btn{
+	outline: none;
+	border: 2px solid #ff4000;
+	padding: 13px 35px;
+	transition: 0.3s all ease-in-out;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 500;
+	position: absolute;
+	margin-right: 25px;
+	right: 0;
+	margin-top: 30px;
+}
+
+.submit_btn:hover{
+	background-color: #ffebe3;
+	border: 2px solid green;
+}
+
+.close_btn{
+	outline: none;
+	border: 2px solid #ff4000;
+	padding: 13px 35px;
+	transition: 0.3s all ease-in-out;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 500;
+	position: absolute;
+	margin-left: 25px;
+	left: 0;
+	margin-top: 30px;
+}
+
+.close_btn:hover{
+	background-color: #ffebe3;
+	border: 2px solid green;
+}
+
+.login{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 400px;
+	transform: translate(-50%, -50%);
+	padding: 25px;
+	border-radius: 10px;
+	background-color: #fcfced;
+	box-shadow: rgba(255,255,255, 0.3) 0px 22px 70px 4px;
+}
+
+
+
+
+
+

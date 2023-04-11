@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    animation: transitionIn 2s;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4f4f4e;
+    position: relative;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #4f4f4e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.searchbar input{
+	width: 500px;
+	height: 40px;
+	font-size: 20px;
+	border: 2px solid #03adfc;
+	border-radius: 30px;
+	padding: 5px;
+	transition: 0.3s all ease-in-out;
+	margin-top: 5px;
+	padding-left: 6px;
+}
+
+.searchbar input::placeholder{
+	text-align: center;
+}
+
+.searchbar input:hover {
+    border: 2px solid #ff00ea;
+}
+
+.searchbar input:focus {
+	outline: none;
+    border: 2px solid green;
+}
+
+#all_profile_suggession{
+	width: 500px;
+	min-height: 0;
+	max-height: 300px;
+	border: 2px solid #03adfc;
+	z-index: 101;
+	position: absolute;
+	background-color: white;
+	padding: 5px 8px;
+	border-radius: 20px;
+	margin-top: 15px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#load_all_profile_suggession{
+	overflow-y: auto;
+	min-height: 0;
+	max-height: 285px;
+	width: 480px;
+}
+
+#load_all_profile_suggession::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+									
+#load_all_profile_suggession::-webkit-scrollbar-track {
+	background-color: white;
+}
+									
+#load_all_profile_suggession::-webkit-scrollbar-thumb {
+	background-color: #b0aeae;
+	border-radius: 10px;
+	border: 3px solid white;
+}
