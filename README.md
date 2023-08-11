@@ -4,7 +4,7 @@
 
 # Tech Stack 
 - Frontend : JSP, CSS, JavaScript, AJAX
-- Backend : JAVA, Servlet, JDBC, SQL;
+- Backend : JAVA, Servlet, JDBC, SQL
 - Database : MySQL
 
 # Feature 1. User Creation/Login :-
