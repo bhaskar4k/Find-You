@@ -12,7 +12,7 @@ A social media site which has full functionality of creating/editing/deleting po
 - Every login will provide a month long session so that user doesn't waste their time to login every time. There will be no more login screen untill the sesssion ends or user does logout manually.
 
 # Feature 2. Newsfeed :-
-- Built an API that will provide a dynamic newsfeed for every active user.
+- Built an API that will provide a newsfeed for every active user.
 - Wrote algorithm for dynamic newsfeed in such a way that :
 For example you follow two people Ram and Shyam then ram and shyam's post will be recommended first (Sorted by Newest post to older post). Then random posts from other users post will be recommended.
 
