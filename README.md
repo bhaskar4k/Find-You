@@ -2,6 +2,11 @@
 
 # Live walkthrough video of this project : https://youtu.be/Sh6LSSISPFo
 
+# Tech Stack 
+- Frontend : JSP, CSS, JavaScript, AJAX
+- Backend : JAVA, Servlet, JDBC, SQL;
+- Database : MySQL
+
 Features of project
 
 1. User Creation/Login :-
