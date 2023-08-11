@@ -1,4 +1,5 @@
 # Find-You
+A social media site which has full functionality of creating/editing/deleting post, like/comment any post, follow/unfollow other users
 
 # Live walkthrough video of this project : https://youtu.be/Sh6LSSISPFo
 
@@ -32,7 +33,7 @@ For example you follow two people Ram and Shyam then ram and shyam's post will b
 - If you type 'r'(uppercase and lowercase doesn't matter) then peoples name starting with 'r' will be shown in real time.
 - Made this using AJAX, JavaScript and DOM Manipulation (Same concept as like list and comment box).
 
-# Feature 6. Follow :-
+# Feature 6. Follow/Unfollow :-
 - You can search any user's profile from searchbar and can follow/unfollow them.
 - Your following user's list and count will be updated accordingly. Also the person you did follow/unfollow his/her follower user's list and count will also be updated automatically after each 15 seconds without loading the webpage (Same concept as like list and comment box).
 - Made this using AJAX, JavaScript and DOM Manipulation.
